@@ -5,8 +5,8 @@
 {{< figure
   src="/images/about-me-perfil.webp"
   width="300"
-  alt="A photograph of Zion National Park"
-  link="https://www.nps.gov/zion/index.htm"
+  alt=""
+  link=""
   caption=""
   class="ma0 w-75"
 >}}
