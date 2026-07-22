@@ -1,0 +1,61 @@
+baseURL: https://example.org/
+locale: pt-BR
+title: Um tal de Corpo e Mente
+theme: hextra
+
+menu:
+  main:
+    - name: About
+      url: "/"
+      weight: 1
+      params:
+        type: link
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: Theme
+      identifier: theme-toggle
+      weight: 3
+      params:
+        type: theme-toggle
+        label: false
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: instagram
+      weight: 5
+      url: "https://www.instagram.com/palomaperini/"
+      params:
+        icon: instagram
+    - name: email
+      weight: 6
+      url: "mailto:loperinim@gmail.com"
+      params:
+        icon: mail-open
+
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo-utcm.jpeg
+      link: /blog
+      width: 25
+      height: 25
+  
+  comments:
+    enable: true
+    type: zoomment
+    zoomment:
+      theme: light # black light dark
+      language: pt-BR
+      gravatar: monsterid # retro monsterid
+      emotions: "❤️,😀,🪄,🥸,💡,🤔,💩,😢"
+      visitors: true
+
+# redirects:
+#   - from: /
+#     to: /blog
+#     status: 301

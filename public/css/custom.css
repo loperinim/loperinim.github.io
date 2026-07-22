@@ -1,0 +1,9 @@
+/* * {
+  font-family:  monospace, "Times New Roman", Times, serif;
+} */
+
+/* @layer theme {
+  :root {
+    --hx-default-mono-font-family: "JetBrains Mono", monospace;
+  }
+} */
