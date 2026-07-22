@@ -1,6 +1,6 @@
 ---
 date: '2026-07-13T21:15:58+01:00'
-draft: true
+draft: false
 title: 'Pequenas invasões, grandes desconexões.'
 summary: 'É comum, em diversos contextos do nosso cotidiano, que um simples atraso nos compromissos se torne um reflexo mais profundo de padrões emocionais e comportamentais.'
 ---
